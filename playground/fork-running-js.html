@@ -6,8 +6,13 @@
     <title>Document</title>
   </head>
   <body>
+    <p>Hello, Dere</p>
     <script>
-      console.log('that took too fuckin long');
+      /*you always want to have your script tags at the bottom
+       this is because if you try to select something before it
+       exists, you won't be able to */
+      const para = document.querySelector('p');
+      console.log(para);
     </script>
   </body>
 </html>
