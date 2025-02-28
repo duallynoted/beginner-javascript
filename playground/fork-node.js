@@ -1,4 +1,4 @@
-console.log  ('      I am from node js')   ;
+console.log('     I am from node js');
 
-let age = 100
-console.log(age)
+let age = 100;
+console.log(age);
